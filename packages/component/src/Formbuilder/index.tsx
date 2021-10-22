@@ -61,6 +61,7 @@ const FormBuilder = (props: FormBuilderProps) => {
         colon = true,
         formItemLayout,
     } = props;
+    console.log(111);
 
     const renderElement = (element: Element) => {
         const label = element.tooltip ? (
